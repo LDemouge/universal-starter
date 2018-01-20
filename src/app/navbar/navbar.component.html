@@ -1,7 +1,32 @@
-<div flexLayout="row">
-        <div fxFlex>col 1</div>
-        <div fxFlex>col 1</div>
-        <div fxFlex>col 1</div>
-        <div fxFlex fxHide=true>col 1</div>
+<mat-toolbar fxLayout="row" fxLayoutAlign="space-between" color="primary">
+        
+        
+                <button mat-button [matMenuTriggerFor]="menu">
+                        <mat-icon>more_vert</mat-icon>
+                        Logiciel de gestion                                
+                </button>   
+        
+                <button mat-button [matMenuTriggerFor]="login">Login</button>
 
-</div>
+</mat-toolbar>
+
+        <mat-menu #login="matMenu">
+                        <button mat-menu-item>google</button>
+                        <button mat-menu-item>facebook</button>
+                        <button mat-menu-item>linkedin</button>
+        </mat-menu>
+
+        <mat-menu #menu="matMenu">
+                <button mat-menu-item>
+                        <mat-icon>dialpad</mat-icon>
+                        <span>Redial</span>
+                </button>
+                <button mat-menu-item disabled>
+                        <mat-icon>voicemail</mat-icon>
+                        <span>Check voicemail</span>
+                </button>
+                <button mat-menu-item>
+                        <mat-icon>notifications_off</mat-icon>
+                        <span>Disable alerts</span>
+                </button>
+        </mat-menu>

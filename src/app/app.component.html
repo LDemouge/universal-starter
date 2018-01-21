@@ -1,6 +1,7 @@
-<app-navbar></app-navbar>
-  <h1>Universal Demo using Angular and Angular CLI</h1>
-  <a routerLink="/">Home</a>
-  <a routerLink="/lazy">Lazy</a>
-  <a routerLink="/lazy/nested">Lazy_Nested</a>
-  <router-outlet></router-outlet>
+<div fxLayout="column" fxLayoutAlign="space-between stretch" fxLayoutGap="10px">
+    <app-navbar></app-navbar>
+    <router-outlet fxFlex></router-outlet>
+    <app-footer></app-footer>
+</div>
+
+

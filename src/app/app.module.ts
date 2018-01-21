@@ -15,9 +15,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -25,7 +27,8 @@ import { NavbarComponent } from './navbar/navbar.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent    
+    NavbarComponent,
+    FooterComponent    
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),
@@ -44,7 +47,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     MatIconModule,
     MatButtonModule,
     FlexLayoutModule,
-    MatToolbarModule
+    MatToolbarModule    
   ],
   providers: [],
   bootstrap: [AppComponent]

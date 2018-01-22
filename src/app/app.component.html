@@ -1,7 +1,14 @@
-<div fxLayout="column" fxLayoutAlign="space-between stretch" fxLayoutGap="10px">
-    <app-navbar></app-navbar>
-    <router-outlet fxFlex></router-outlet>
-    <app-footer></app-footer>
+<div class= "viewport" fxLayout="column">
+    <header>
+        <app-navbar></app-navbar>
+    </header>
+    <main fxFlex="grow">
+        <router-outlet></router-outlet>
+    </main>    
+    <footer>
+      <app-footer></app-footer>
+    </footer>
 </div>
+
 
 

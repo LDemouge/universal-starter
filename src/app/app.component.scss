@@ -1,0 +1,40 @@
+$footer-height: 30px;
+
+.site {
+    display: grid;
+    grid-template-rows: 60px 1fr $footer-height;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-areas:    "header header header"
+                            "sidebar content content"
+                            "footer footer footer";
+    grid-gap: 10px;
+    height: 100vh;
+}
+
+header{
+    grid-area: header;
+    /* position: fixed; */
+    background-color: #009688;
+}
+.sidebar{
+    background-color: #70C1B3;
+    grid-area: sidebar;
+    overflow: auto;
+}
+
+.content{
+    background-color: #EEEEEE;
+    grid-area: content;
+    overflow: auto;
+}
+
+footer{
+    
+    grid-area: footer;
+    background-color: #424242;
+}
+
+.miscellaneous {
+    grid-area: miscellaneous;
+    background-color: #B2DBBF;
+}

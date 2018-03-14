@@ -1,25 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900i');
+
 $footer-height: 30px;
+// $sidebarcolor: #E0F2F1;
+$sidebarcolor: #EEEEEE;
+// $sidebarcolor:#009688;
+$headercolor: #009688;
 
 .site {
     display: grid;
     grid-template-rows: 60px 1fr $footer-height;
-    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-columns: 15vw 6fr 1fr;
     grid-template-areas:    "header header header"
                             "sidebar content content"
                             "footer footer footer";
     grid-gap: 10px;
     height: 100vh;
+    font-family: 'Raleway', sans-serif;
 }
 
 header{
     grid-area: header;
     /* position: fixed; */
-    background-color: #009688;
+    background-color: $headercolor;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #EEEEEE;
+    font-size: 2em;
+    
 }
 .sidebar{
-    background-color: #70C1B3;
+    background-color: $sidebarcolor;
+    // background-color: #70C1B3;
     grid-area: sidebar;
     overflow: auto;
+}
+
+app-sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+
 }
 
 .content{

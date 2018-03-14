@@ -18,6 +18,8 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { AppRoutingModule } from './app-routing.module';
+import { CategoryComponent } from './category/category.component';
 // import { HomeComponent } from './home/home.component';
 // import { NavbarComponent } from './navbar/navbar.component';
 // import { FooterComponent } from './footer/footer.component';
@@ -28,18 +30,14 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   declarations: [
     AppComponent,
     SidebarComponent,
+    CategoryComponent,
     // HomeComponent,
     // NavbarComponent,
     // FooterComponent    
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),
-    RouterModule.forRoot([
-      { path: '', component: AppComponent, pathMatch: 'full'},
-      //{ path: 'lazy/nested', loadChildren: './lazy/lazy.module#LazyModule'},
-      // { path: 'list', loadChildren: './list/list.module#ListModule'}
-      
-    ]),
+    AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireAuthModule,

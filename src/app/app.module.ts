@@ -20,6 +20,7 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CategoryComponent } from './category/category.component';
+import { HomeComponent } from './home/home.component';
 // import { HomeComponent } from './home/home.component';
 // import { NavbarComponent } from './navbar/navbar.component';
 // import { FooterComponent } from './footer/footer.component';
@@ -31,6 +32,7 @@ import { CategoryComponent } from './category/category.component';
     AppComponent,
     SidebarComponent,
     CategoryComponent,
+    HomeComponent,
     // HomeComponent,
     // NavbarComponent,
     // FooterComponent    

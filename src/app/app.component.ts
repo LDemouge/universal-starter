@@ -10,6 +10,6 @@ import { Observable } from 'rxjs/Observable';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = "Logiciel de gestion"
+  title = "#LogicielDeGestion"
 
 }

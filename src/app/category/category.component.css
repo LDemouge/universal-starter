@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:500|Rammetto+One');
+
+h1{
+    font-size: 2em;
+    font-family: 'Rammetto One', cursive;
+    text-align: center;
+
+    /* color: #004D40; */
+    /* margin: 0;
+    flex-basis: 100%; */
+    /* display:flex;
+    align-self: flex-start; 
+    justify-content: center; */
+    /* width: 100%; */
+}
+
+h3{
+    font-size: 1em;
+    /* flex-basis: 100%; */
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    /* color: #004D40; */
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    /* height:100vh; */
+    /* flex-wrap: wrap; */
+    /* align-items: flex-start; */
+    justify-content: center;
+    /* align-content: space-aroucenternd; */
+    background-color: #EEEEEE;
+    /* height: 100%; */
+    
+}
+
+.list{
+    /* flex-basis: 45%; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    /* border-radius: 0.5em; */
+    /* padding-top: 1em; */
+}
+
+.item{
+    /* padding: 1em; */
+    width: 400px;
+    /* border-style: solid; */
+    border: 0.1em solid #004D40;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    /* background-color: #00695C; */
+    /* background-color: #FFFFFF; */
+    border-radius: 0.3em;
+    margin-bottom: 2em;
+    color: #00695C;
+    background-color: #00695C;
+    /* padding: 1px; */
+    /* background-image: url("http://via.placeholder.com/350x150");
+    background-repeat:no-repeat; */
+}
+
+
+
+
+/* h2, p{
+    margin: 10px;
+} */
+
+

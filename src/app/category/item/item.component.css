@@ -1,0 +1,45 @@
+img{
+    width: 100%;
+}
+
+div.title{
+    background-color: #00695C;
+    color: #FAFAFA;
+}
+
+div.content{
+    background-color: #FFFFFF;
+    flex-grow: 2;
+}
+
+div.action{
+    background-color: #FFFFFF;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+a{
+    color: #EC407A;
+}
+
+h3{
+    font-size: 1.5em;
+    margin: 0.2em 0.5em 0.2em 0.5em;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    color: #424242;
+    margin: 1em;
+    text-align: justify;
+}
+
+img{
+    flex-basis: 100%;
+    margin: 0;
+    padding: 0;
+
+}

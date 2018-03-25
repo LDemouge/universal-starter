@@ -1,0 +1,15 @@
+
+  <div class="featurette-divider">
+
+      <div class="row featurette">
+        <div  [ngClass]="isEven ? 'col-md-7' : 'col-md-7 push-md-5'">
+          <h2 class="featurette-heading"> {{software.title}}  <span class="text-muted"> {{software.titleMuted}} </span></h2>
+          <h6><a [href]="software.linkToPublisher" class="text-info">{{software.linkToPublisher}}</a></h6>
+          <p class="text-justify">{{software.description}}</p>
+        </div>
+        <div [ngClass]="isEven ? 'col-md-5' : 'col-md-5 pull-md-7'">
+          <img class="featurette-image img-fluid mx-auto" [src]="'./assets/'+software.imageUrl+'.png'" [alt]="software.imageUrl">
+        </div>
+      </div>
+  </div>
+

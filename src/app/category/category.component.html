@@ -1,0 +1,12 @@
+
+<div class="wrapper">
+        <h1>{{category.title}}</h1>
+        <h3>{{category.h2}}</h3>
+
+    <div class="list">
+        <app-item *ngFor="let item of category.items" class="item" [item]="item"></app-item>
+    </div>
+
+</div>
+        
+

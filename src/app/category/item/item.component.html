@@ -1,0 +1,16 @@
+<div class="title">
+    <h3>{{item.title}}</h3>
+    
+    
+</div>
+<div>
+    <img [src]="'./assets/'+item.imageUrl+'.png'">
+</div>
+<div class="content">
+    <h4>{{item.subtitle}}</h4>
+    <p>{{item.description}}</p>
+</div>
+<div class="action">
+    <!-- action bar -->
+    <a href="{{item.linkToPublisher}}">{{item.linkToPublisher}}</a>
+</div>

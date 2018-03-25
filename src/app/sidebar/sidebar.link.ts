@@ -3,9 +3,9 @@ export class SidebarLink {
     alt: string;
     text: string;
 
-    constructor(linkText, url){
-        this.text='logiciel de gestion '+linkText;
+    constructor(linkText, url) {
+        this.text = 'logiciel de gestion ' + linkText;
         this.href = url;
-        this.alt = 'Comparez et trouvez le meilleur '+this.text+' sur LogicielDeGestion.info';
+        this.alt = 'Comparez et trouvez le meilleur ' + this.text + ' sur LogicielDeGestion.info';
     }
 }

@@ -1,6 +1,5 @@
 import {Component} from '@angular/core';
 
-import { AngularFireDatabase } from 'angularfire2/database';
 import { Observable } from 'rxjs/Observable';
 
 @Component({
@@ -9,6 +8,6 @@ import { Observable } from 'rxjs/Observable';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = "#LogicielDeGestion"
+  title = '#LogicielDeGestion';
 
 }

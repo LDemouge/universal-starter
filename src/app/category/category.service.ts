@@ -5,25 +5,25 @@ import { of } from 'rxjs/observable/of';
 import { Category} from './category';
 import { categories } from './mock.categories';
 import {Item} from './item/item';
- 
+
 
 @Injectable()
 export class CategoryService {
 
   constructor() { }
 
-  load(url): Observable<Category>{
+  load(url): Observable<Category> {
     console.log(url);
 
-    let category = categories.find(response => response.url === url);
+    const category = categories.find(response => response.url === url);
 
-    let items:Item[] = category.softwares;
+    const items: Item[] = category.softwares;
 
     // for(let item of category.softwares)
     // {
     //   try {
     //     let obj:Item = item;
-        
+
     //   } catch (error) {
     //     console.log('the error is:'+error);
     //     continue;
@@ -33,19 +33,19 @@ export class CategoryService {
 
 
     return of(new Category(
-      category.id, 
+      category.id,
       category.url,
-      'Logiciel de gestion '+category.title,
-      'Logiciel de gestion '+category.title,
-      'Logiciel de gestion '+category.title,
+      'Logiciel de gestion ' + category.title,
+      'Logiciel de gestion ' + category.title,
+      'Logiciel de gestion ' + category.title,
       category.h2,
       items));
 
   }
 
-  private buildItems(json){
+  private buildItems(json) {
 
-    for(var prop in json){
+    for (const prop in json) {
 
     }
 

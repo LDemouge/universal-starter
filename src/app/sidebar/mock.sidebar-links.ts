@@ -1,394 +1,394 @@
 export const LINKS = [
   {
-    "title": "association",
-    "url": "association"
+    'title': 'association',
+    'url': 'association'
   },
   {
-    "title": "auto entrepreneur",
-    "url": "auto-entrepreneur"
+    'title': 'auto entrepreneur',
+    'url': 'auto-entrepreneur'
   },
   {
-    "title": "associative",
-    "url": "associative"
+    'title': 'associative',
+    'url': 'associative'
   },
   {
-    "title": "avocat",
-    "url": "avocat"
+    'title': 'avocat',
+    'url': 'avocat'
   },
   {
-    "title": "agricole",
-    "url": "agricole"
+    'title': 'agricole',
+    'url': 'agricole'
   },
   {
-    "title": "audio",
-    "url": "audio"
+    'title': 'audio',
+    'url': 'audio'
   },
   {
-    "title": "a distance",
-    "url": "a-distance"
+    'title': 'a distance',
+    'url': 'a-distance'
   },
   {
-    "title": "argent",
-    "url": "argent"
+    'title': 'argent',
+    'url': 'argent'
   },
   {
-    "title": "bancaire",
-    "url": "bancaire"
+    'title': 'bancaire',
+    'url': 'bancaire'
   },
   {
-    "title": "bibliographique",
-    "url": "bibliographique"
+    'title': 'bibliographique',
+    'url': 'bibliographique'
   },
   {
-    "title": "budget",
-    "url": "budget"
+    'title': 'budget',
+    'url': 'budget'
   },
   {
-    "title": "batiment",
-    "url": "batiment"
+    'title': 'batiment',
+    'url': 'batiment'
   },
   {
-    "title": "bibliotheque",
-    "url": "bibliotheque"
+    'title': 'bibliotheque',
+    'url': 'bibliotheque'
   },
   {
-    "title": "bd",
-    "url": "bd"
+    'title': 'bd',
+    'url': 'bd'
   },
   {
-    "title": "budget personnel",
-    "url": "budget-personnel"
+    'title': 'budget personnel',
+    'url': 'budget-personnel'
   },
   {
-    "title": "bluetooth",
-    "url": "bluetooth"
+    'title': 'bluetooth',
+    'url': 'bluetooth'
   },
   {
-    "title": "commerciale",
-    "url": "commerciale"
+    'title': 'commerciale',
+    'url': 'commerciale'
   },
   {
-    "title": "client",
-    "url": "client"
+    'title': 'client',
+    'url': 'client'
   },
   {
-    "title": "compte",
-    "url": "compte"
+    'title': 'compte',
+    'url': 'compte'
   },
   {
-    "title": "comptable",
-    "url": "comptable"
+    'title': 'comptable',
+    'url': 'comptable'
   },
   {
-    "title": "commerciale pour mac",
-    "url": "commerciale-pour-mac"
+    'title': 'commerciale pour mac',
+    'url': 'commerciale-pour-mac'
   },
   {
-    "title": "stock",
-    "url": "stock"
+    'title': 'stock',
+    'url': 'stock'
   },
   {
-    "title": "projet",
-    "url": "projet"
+    'title': 'projet',
+    'url': 'projet'
   },
   {
-    "title": "documentaire",
-    "url": "documentaire"
+    'title': 'documentaire',
+    'url': 'documentaire'
   },
   {
-    "title": "de parc informatique",
-    "url": "de-parc-informatique"
+    'title': 'de parc informatique',
+    'url': 'de-parc-informatique'
   },
   {
-    "title": "entreprise",
-    "url": "entreprise"
+    'title': 'entreprise',
+    'url': 'entreprise'
   },
   {
-    "title": "en ligne",
-    "url": "en-ligne"
+    'title': 'en ligne',
+    'url': 'en-ligne'
   },
   {
-    "title": "erp",
-    "url": "erp"
+    'title': 'erp',
+    'url': 'erp'
   },
   {
-    "title": "ecole de musique",
-    "url": "ecole-de-musique"
+    'title': 'ecole de musique',
+    'url': 'ecole-de-musique'
   },
   {
-    "title": "evenementiel",
-    "url": "evenementiel"
+    'title': 'evenementiel',
+    'url': 'evenementiel'
   },
   {
-    "title": "elevage",
-    "url": "elevage"
+    'title': 'elevage',
+    'url': 'elevage'
   },
   {
-    "title": "esthetique",
-    "url": "esthetique"
+    'title': 'esthetique',
+    'url': 'esthetique'
   },
   {
-    "title": "ecole",
-    "url": "ecole"
+    'title': 'ecole',
+    'url': 'ecole'
   },
   {
-    "title": "familiale gratuit",
-    "url": "familiale-gratuit"
+    'title': 'familiale gratuit',
+    'url': 'familiale-gratuit'
   },
   {
-    "title": "financiere",
-    "url": "financiere"
+    'title': 'financiere',
+    'url': 'financiere'
   },
   {
-    "title": "finances personnelles",
-    "url": "finances-personnelles"
+    'title': 'finances personnelles',
+    'url': 'finances-personnelles'
   },
   {
-    "title": "formation",
-    "url": "formation"
+    'title': 'formation',
+    'url': 'formation'
   },
   {
-    "title": "finance",
-    "url": "finance"
+    'title': 'finance',
+    'url': 'finance'
   },
   {
-    "title": "fichier client",
-    "url": "fichier-client"
+    'title': 'fichier client',
+    'url': 'fichier-client'
   },
   {
-    "title": "facturation",
-    "url": "facturation"
+    'title': 'facturation',
+    'url': 'facturation'
   },
   {
-    "title": "forestiere",
-    "url": "forestiere"
+    'title': 'forestiere',
+    'url': 'forestiere'
   },
   {
-    "title": "garage",
-    "url": "garage"
+    'title': 'garage',
+    'url': 'garage'
   },
   {
-    "title": "hoteliere",
-    "url": "hoteliere"
+    'title': 'hoteliere',
+    'url': 'hoteliere'
   },
   {
-    "title": "hotspot",
-    "url": "hotspot"
+    'title': 'hotspot',
+    'url': 'hotspot'
   },
   {
-    "title": "hospitaliere",
-    "url": "hospitaliere"
+    'title': 'hospitaliere',
+    'url': 'hospitaliere'
   },
   {
-    "title": "immobiliere",
-    "url": "immobiliere"
+    'title': 'immobiliere',
+    'url': 'immobiliere'
   },
   {
-    "title": "iphone",
-    "url": "iphone"
+    'title': 'iphone',
+    'url': 'iphone'
   },
   {
-    "title": "intégré",
-    "url": "integre"
+    'title': 'intégré',
+    'url': 'integre'
   },
   {
-    "title": "ipod",
-    "url": "ipod"
+    'title': 'ipod',
+    'url': 'ipod'
   },
   {
-    "title": "inventaire",
-    "url": "inventaire"
+    'title': 'inventaire',
+    'url': 'inventaire'
   },
   {
-    "title": "juridique",
-    "url": "juridique"
+    'title': 'juridique',
+    'url': 'juridique'
   },
   {
-    "title": "kiné",
-    "url": "kine"
+    'title': 'kiné',
+    'url': 'kine'
   },
   {
-    "title": "locative",
-    "url": "locative"
+    'title': 'locative',
+    'url': 'locative'
   },
   {
-    "title": "linux",
-    "url": "linux"
+    'title': 'linux',
+    'url': 'linux'
   },
   {
-    "title": "lumiere",
-    "url": "lumiere"
+    'title': 'lumiere',
+    'url': 'lumiere'
   },
   {
-    "title": "logistique",
-    "url": "logistique"
+    'title': 'logistique',
+    'url': 'logistique'
   },
   {
-    "title": "librairie",
-    "url": "librairie"
+    'title': 'librairie',
+    'url': 'librairie'
   },
   {
-    "title": "magasin",
-    "url": "magasin"
+    'title': 'magasin',
+    'url': 'magasin'
   },
   {
-    "title": "mp3",
-    "url": "mp3"
+    'title': 'mp3',
+    'url': 'mp3'
   },
   {
-    "title": "menage",
-    "url": "menage"
+    'title': 'menage',
+    'url': 'menage'
   },
   {
-    "title": "musique",
-    "url": "musique"
+    'title': 'musique',
+    'url': 'musique'
   },
   {
-    "title": "maintenance",
-    "url": "maintenance"
+    'title': 'maintenance',
+    'url': 'maintenance'
   },
   {
-    "title": "maison",
-    "url": "maison"
+    'title': 'maison',
+    'url': 'maison'
   },
   {
-    "title": "open source",
-    "url": "open-source"
+    'title': 'open source',
+    'url': 'open-source'
   },
   {
-    "title": "organisme de formation",
-    "url": "organisme-de-formation"
+    'title': 'organisme de formation',
+    'url': 'organisme-de-formation'
   },
   {
-    "title": "personnel",
-    "url": "personnel"
+    'title': 'personnel',
+    'url': 'personnel'
   },
   {
-    "title": "parc automobile",
-    "url": "parc-automobile"
+    'title': 'parc automobile',
+    'url': 'parc-automobile'
   },
   {
-    "title": "pme",
-    "url": "pme"
+    'title': 'pme',
+    'url': 'pme'
   },
   {
-    "title": "photo",
-    "url": "photo"
+    'title': 'photo',
+    'url': 'photo'
   },
   {
-    "title": "pharmacie",
-    "url": "pharmacie"
+    'title': 'pharmacie',
+    'url': 'pharmacie'
   },
   {
-    "title": "planning",
-    "url": "planning"
+    'title': 'planning',
+    'url': 'planning'
   },
   {
-    "title": "poker",
-    "url": "poker"
+    'title': 'poker',
+    'url': 'poker'
   },
   {
-    "title": "point-vente",
-    "url": "point-vente"
+    'title': 'point-vente',
+    'url': 'point-vente'
   },
   {
-    "title": "qualité",
-    "url": "qualite"
+    'title': 'qualité',
+    'url': 'qualite'
   },
   {
-    "title": "relation client",
-    "url": "relation-client"
+    'title': 'relation client',
+    'url': 'relation-client'
   },
   {
-    "title": "rh",
-    "url": "rh"
+    'title': 'rh',
+    'url': 'rh'
   },
   {
-    "title": "restaurant",
-    "url": "restaurant"
+    'title': 'restaurant',
+    'url': 'restaurant'
   },
   {
-    "title": "ressources humaines",
-    "url": "ressources-humaines"
+    'title': 'ressources humaines',
+    'url': 'ressources-humaines'
   },
   {
-    "title": "restauration",
-    "url": "restauration"
+    'title': 'restauration',
+    'url': 'restauration'
   },
   {
-    "title": "sci",
-    "url": "sci"
+    'title': 'sci',
+    'url': 'sci'
   },
   {
-    "title": "scolaire",
-    "url": "scolaire"
+    'title': 'scolaire',
+    'url': 'scolaire'
   },
   {
-    "title": "sav",
-    "url": "sav"
+    'title': 'sav',
+    'url': 'sav'
   },
   {
-    "title": "sécuritaire",
-    "url": "securitaire"
+    'title': 'sécuritaire',
+    'url': 'securitaire'
   },
   {
-    "title": "telechargement",
-    "url": "telechargement"
+    'title': 'telechargement',
+    'url': 'telechargement'
   },
   {
-    "title": "tournoi poker",
-    "url": "tournoi-poker"
+    'title': 'tournoi poker',
+    'url': 'tournoi-poker'
   },
   {
-    "title": "téléphonique",
-    "url": "telephonique"
+    'title': 'téléphonique',
+    'url': 'telephonique'
   },
   {
-    "title": "temps de travail",
-    "url": "temps-de-travail"
+    'title': 'temps de travail',
+    'url': 'temps-de-travail'
   },
   {
-    "title": "tpe",
-    "url": "tpe"
+    'title': 'tpe',
+    'url': 'tpe'
   },
   {
-    "title": "transport",
-    "url": "transport"
+    'title': 'transport',
+    'url': 'transport'
   },
   {
-    "title": "temps",
-    "url": "temps"
+    'title': 'temps',
+    'url': 'temps'
   },
   {
-    "title": "technique",
-    "url": "technique"
+    'title': 'technique',
+    'url': 'technique'
   },
   {
-    "title": "taxiphone",
-    "url": "taxiphone"
+    'title': 'taxiphone',
+    'url': 'taxiphone'
   },
   {
-    "title": "video",
-    "url": "video"
+    'title': 'video',
+    'url': 'video'
   },
   {
-    "title": "viticole",
-    "url": "viticole"
+    'title': 'viticole',
+    'url': 'viticole'
   },
   {
-    "title": "videotheque",
-    "url": "videotheque"
+    'title': 'videotheque',
+    'url': 'videotheque'
   },
   {
-    "title": "vente",
-    "url": "vente"
+    'title': 'vente',
+    'url': 'vente'
   },
   {
-    "title": "vo",
-    "url": "vo"
+    'title': 'vo',
+    'url': 'vo'
   },
   {
-    "title": "wiki",
-    "url": "wiki"
+    'title': 'wiki',
+    'url': 'wiki'
   }
-]
+];

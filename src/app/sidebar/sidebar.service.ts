@@ -9,11 +9,11 @@ export class SidebarService {
 
   getSidebarLinks(): SidebarLink[] {
 
-    let links = [];
+    const links = [];
 
-    for (let link of LINKS) {
+    for (const link of LINKS) {
 
-      links.push(new SidebarLink(link.title, link.url)); 
+      links.push(new SidebarLink(link.title, link.url));
 
     }
 

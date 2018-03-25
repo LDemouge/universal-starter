@@ -7,7 +7,7 @@ import { SidebarService } from './sidebar.service';
   providers: [SidebarService],
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.css']
-}) 
+})
 export class SidebarComponent implements OnInit {
 
   links: SidebarLink[];

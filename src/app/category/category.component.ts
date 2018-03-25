@@ -4,13 +4,13 @@ import { Title }     from '@angular/platform-browser';
 import { Location } from '@angular/common';
 
 import { CategoryService } from './category.service';
-import { Category} from './category'
+import { Category} from './category';
 
 @Component({
   // selector: 'app-category',
   templateUrl: 'category.component.html',
   styleUrls: ['category.component.css'],
-  providers:[CategoryService]
+  providers: [CategoryService]
 })
 export class CategoryComponent implements OnInit {
 
@@ -31,11 +31,11 @@ export class CategoryComponent implements OnInit {
           const url = params['id'];
           this.service.load(url).subscribe(category => {
                 this.category = category;
-                this.titleService.setTitle(this.category.title); 
+                this.titleService.setTitle(this.category.title);
                 console.log(this.category);
               });
         });
-        
+
 
   }
 

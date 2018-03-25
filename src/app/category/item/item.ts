@@ -4,9 +4,9 @@ export class Item {
     subtitle?;
     imageUrl;
     linkToPublisher;
-    description; 
+    description;
     listId;
 
-    constructor(id, title, subtitle, imageUrl, ){}
+    constructor(id, title, subtitle, imageUrl, ) {}
 
 }

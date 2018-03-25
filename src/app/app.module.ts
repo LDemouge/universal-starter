@@ -38,7 +38,7 @@ import {TransferHttpCacheModule} from '@nguniversal/common';
     ItemComponent,
     // HomeComponent,
     // NavbarComponent,
-    // FooterComponent    
+    // FooterComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),
@@ -51,7 +51,7 @@ import {TransferHttpCacheModule} from '@nguniversal/common';
     // MatIconModule,
     // MatButtonModule,
     // // FlexLayoutModule,
-    // MatToolbarModule    
+    // MatToolbarModule
     TransferHttpCacheModule,
   ],
   providers: [],

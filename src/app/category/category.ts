@@ -7,9 +7,9 @@ export class Category {
     title;
     h1;
     h2;
-    items:Item[];
+    items: Item[];
 
-    constructor(id:number, url:string, meta, title, h1:string, h2:string, items:Item[]) {
+    constructor(id: number, url: string, meta, title, h1: string, h2: string, items: Item[]) {
         this.id = id;
         this.url = url;
         this.meta = meta;

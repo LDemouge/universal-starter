@@ -17,7 +17,19 @@ export class CategoryService {
 
     let category = categories.find(response => response.url === url);
 
-    const items: Item[] = category.softwares;
+    let items:Item[] = category.softwares;
+
+    // for(let item of category.softwares)
+    // {
+    //   try {
+    //     let obj:Item = item;
+        
+    //   } catch (error) {
+    //     console.log('the error is:'+error);
+    //     continue;
+    //   }
+    //   items.push(obj);
+    // }
 
 
     return of(new Category(
@@ -28,6 +40,16 @@ export class CategoryService {
       'Logiciel de gestion '+category.title,
       category.h2,
       items));
+
+  }
+
+  private buildItems(json){
+
+    for(var prop in json){
+
+    }
+
+
 
   }
 }

@@ -15,7 +15,7 @@ import { Category} from './category'
 export class CategoryComponent implements OnInit {
 
   category: Category;
-  private items = [];
+  // private items = [];
 
   constructor(
     private service: CategoryService,

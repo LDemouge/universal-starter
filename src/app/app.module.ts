@@ -27,6 +27,7 @@ import { ItemComponent } from './category/item/item.component';
 // import { FooterComponent } from './footer/footer.component';
 
 
+import {TransferHttpCacheModule} from '@nguniversal/common';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { ItemComponent } from './category/item/item.component';
     // MatButtonModule,
     // // FlexLayoutModule,
     // MatToolbarModule    
+    TransferHttpCacheModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
